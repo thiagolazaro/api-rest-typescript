@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Desenvolvendo API Rest em Typescript",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev":  "nodemon --exec ts-node ./src/index.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thiagolazaro/api-rest-typescript.git"
